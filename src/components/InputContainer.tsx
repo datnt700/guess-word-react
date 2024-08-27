@@ -18,7 +18,7 @@ export const InputContainer = ({
   return (
     <div className={styles['input-container']}>
       {isReady &&
-        word.split('').map((ele, index) => (
+        word.split('').map((_, index) => (
           <input
             key={index}
             ref={(el) => {
