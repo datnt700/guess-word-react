@@ -1,0 +1,17 @@
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+
+  .item {
+    width: 3rem;
+    border: 2px solid #97a3b6;
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #f2f5f9;
+    text-align: center;
+    outline: none;
+  }
+}
