@@ -105,6 +105,7 @@ function App() {
 
     if (count >= 4 && toastRef.current) {
       toastRef.current.showToast('You lose');
+      handleRandom();
     }
   };
 

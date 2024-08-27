@@ -5,7 +5,7 @@ import { forwardRef, useImperativeHandle, useState } from 'react';
 const Toast = forwardRef<
   { showToast: (msg: string) => void },
   { timeout?: number; src: string }
->(({ timeout = 15000, src }, ref) => {
+>(({ timeout = 1000, src }, ref) => {
   const [show, setShow] = useState(false);
   const [toastMsg, setToastMsg] = useState('');
   // Use the ref to expose showToast to the parent component
