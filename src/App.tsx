@@ -124,6 +124,7 @@ function App() {
     setArrayResult([]);
     setCount(0);
     setMistakes('');
+    resetInputFields();
   };
 
   return (
