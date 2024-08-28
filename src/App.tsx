@@ -44,6 +44,7 @@ function App() {
     setArrayResult([]);
     setCount(0);
     setMistakes('');
+    setBorderStates(new Array(word.length).fill('#97A3B6'));
   };
 
   const shuffleWord = (word: string) => {
